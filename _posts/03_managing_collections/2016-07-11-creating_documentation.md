@@ -8,7 +8,7 @@ tags:
 warning: false
 ---
 
-All users of Postman Cloud get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
+All users of Postman Pro get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
 
 ### Viewing Documentation for Collections
 
@@ -23,7 +23,7 @@ All users of Postman Cloud get access to Postman's Documenter! This is a new fea
 * This will open the documentation for that collection in your browser. You'll be able to browse all folders and requests in the collection, and see what the requests and code snippets look like with different environments selected.
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs3.png)][2]
 
-* Keep in mind that this link is restricted to users in your Postman Cloud Team. To make this documentation available to other users (as a link on your website, perhaps), you&\#39'll need to Publish it!
+* Keep in mind that this link is restricted to users in your Postman Pro Team. To make this documentation available to other users (as a link on your website, perhaps), you&\#39'll need to Publish it!
 
 ### Publishing Public Documentation for Collections
 
@@ -33,6 +33,8 @@ Published documentation is a way of sharing your collection's documentation with
 * All you need to do is select which environment to publish the collection with. Any references to variables like `{%raw%}{{url}}{%endraw%}` in the collection will be replaced with the correct value from the environment. The public URL field contains the URL that you can share with the outside world. For example, if you're publishing your primary collection, you might want to select the "Production" environment, so that people opening published link can start using your docs straightaway.
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)][3]
 Note: Any confidential info (passwords/access tokens) in your environment might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
+* Custom domains: Optionally, you can also pick from a list of verified custom domains to view your api documentation on. You'll be able to view docs on your custom domain, as well as the Postman documenter.
+![](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)
 * Real time updates: the public documentation link will always have updated content! You don't need to keep going through the Publish flow each time you want your docs to be updated.
 * To unpublish, open the Docs link from your Postman app. Click the Published button near the top of the screen. For a collection that's already been published, you'll be able to view the public link or unpublish the collection.
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs5.png)][4]

@@ -134,6 +134,11 @@
         "title": "Working with cookies",
         "href":"/docs/working_with_cookies",
         "external": false
+      },
+      {
+        "title": "Working with client certificates",
+        "href":"/docs/working_with_client_certificates",
+        "external": false
       }
     ]
   },
@@ -208,26 +213,26 @@
     ]
   },
   {
-    "title": "Postman Cloud for Teams",
+    "title": "Postman Pro for Teams",
     "children": [
       {
-        "title": "Postman Cloud",
+        "title": "Postman Pro",
         "href":"/docs/cloud",
         "external": false
       },
       {
-        "title": "Purchasing Cloud",
+        "title": "Purchasing Pro",
         "href":"/docs/buying_cloud",
         "external": false
       },
 
       {
-        "title": "Managing your Cloud team",
+        "title": "Managing your Pro team",
         "href":"/docs/cloud_team_setup",
         "external": false
       },
       {
-        "title": "Postman Cloud API",
+        "title": "Postman API",
         "href":"/docs/cloud_api",
         "external": false
       },
@@ -289,6 +294,11 @@
       {
         "title": "Integrating automated API tests with Jenkins",
         "href":"/docs/integrating_with_jenkins",
+        "external": false
+      },
+      {
+        "title": "Schedule runs in the Cloud",
+        "href":"/docs/schedule_cloud_runs",
         "external": false
       }
     ]
